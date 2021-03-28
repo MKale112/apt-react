@@ -1,5 +1,6 @@
 import React from "react";
-
+import picture from "../images/home-3/slider-2.png";
+import picture2 from "../images/icon-slider-1.png";
 const BannerSlider = () => {
   return (
     // BANNER SLIDER
@@ -9,7 +10,7 @@ const BannerSlider = () => {
         <ul>
           <li data-transition="fade">
             <img
-              src="images/home-3/slider-2.png"
+              src={picture}
               data-bgposition="left center"
               data-duration="14000"
               data-bgpositionend="right center"
@@ -24,7 +25,7 @@ const BannerSlider = () => {
               data-start="1300"
               data-easing="easeOutBack"
             >
-              <img src="images/icon-slider-1.png" alt="" />
+              <img src={picture2} alt="nema" />
             </div>
 
             <div

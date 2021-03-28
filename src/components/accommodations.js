@@ -103,3 +103,4 @@ const Accommodations = () => {
     // END / ACCOMMODATIONS
   );
 };
+export default Accommodations;
